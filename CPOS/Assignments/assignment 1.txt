@@ -1,0 +1,75 @@
+1. write a program that prints "hellow world"to the screen.
+step1= Start
+step2=type the "hellow world".
+step3=End
+
+2.write a program that ask the user for their name and greets them with their name.
+step1=Start
+step2=Declare 2 string 1 for greet variable and another for name.
+step3=take input from user its name.
+step4=print the the greet variable and then his name variable.
+step5=End
+
+3.modify the previous program such that only the user Alice and Bob are greeted with their names.
+step1=Start
+step2=declare 2 string 1 for greet veriable and another for name.
+step3=take the input from user name
+step4=if string 2 is not equal to alic or bob then it go to step 3.
+step5=print the greet and the alice and Bob name.
+step6=End
+
+4.write a program that ask the user for a number n and prints the sum of the numbers 1 to n
+step1=Start
+step2=take a input number from user
+step3=start a loop 1 to n.
+step4=print the value of sum
+step5=End
+
+5.modify the privious program such that only multiples of three or five are considered in the sum
+step1=Start 
+step2=take input number from user.
+step3=start a loop from 1 to n.
+step4=check the index which is divided by 3 or 5.
+step5=afer every loop add i .
+step6=print the i.
+step7=End
+
+6.write a program that prints a multipliction table for numbers up to 12.
+step1=Start
+step2=start a loop 1 to 12. 
+step3=ineer lopp is start 1 to 10.
+step4=multiply inner loop variable and outer loop variable.
+step5=print the multiplication.
+step6=when conditon is false inner loop go step 2 .
+step7=End.
+
+7.write a program that prints all prime numbers
+step1=Start
+Step2=take a number from user.
+step3=start a outer loop 2 to n.
+step4=decleare count=0.
+step5=start inner loop 1 to outer level veriable.
+step6=if the outer level veriable divide by inner level veriable its mode is equal to 0 then increase count
+step7= the count is equal to two then it is prime 
+step8=End
+
+9.write a program that print the leep years
+step1=Start
+step2=take a two number from user for loer limit and upper limit.
+step3=start a loop upto n
+step4=check condition year%400is equal to zero or year%4==0 and year%100is not equal to zero.
+step5=print yera.
+step6=End.
+
+8.write a guessing game where the user has to guess a secrate number after every guess the program tell the user whether their 
+number was too large or too smallat the end the number of tries needed should be printed. it count only as try if they input the same 
+number multiple times consecutively.
+step1=Star
+step2=declare variable i, guess no,count=0,and arr[100]
+step3=start do while loop
+step4=if the i is less than guess no then it is too small
+step5=if the i is greater than guess no then it is too large
+step6=if it is not is array count++
+step7=print the count
+step8=End
+
